@@ -1,0 +1,17 @@
+.box-mensagem {
+    background-color: #fff;
+    color: var(--preto);
+    max-width: 305px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 50px;
+}
+.voltar-button {
+    display: block;
+    margin-left: 50px;
+}
+.titulo-box-mensagem {
+    font-weight: 600;
+    padding: 10px;
+}

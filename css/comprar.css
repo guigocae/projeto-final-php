@@ -1,0 +1,38 @@
+.comprar {
+    background-color: #fff;
+    color: var(--preto);
+    border-radius: 20px;
+    margin-block: 95px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    gap: 20px;
+}
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+fieldset {
+    border: 1px solid var(--preto);
+    border-radius: 20px;
+    padding: 15px 20px;
+}
+.submit {
+    flex-basis: 100%;
+}
+.botao-enviar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 1px solid var(--preto);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.botao-enviar:active {
+    background-color: #232830;
+    color: var(--rosa);
+}

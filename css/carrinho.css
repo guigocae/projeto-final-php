@@ -1,0 +1,4 @@
+.boxes.box-ingresso {
+    width: calc(388.66px - 50px);
+    align-items: center;
+}

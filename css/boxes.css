@@ -1,0 +1,74 @@
+.corpo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+    padding-block: 95px;
+    width: 100%;
+}
+.boxes {
+    text-align: start;
+    background-color: #fff;
+    color: var(--preto);
+    max-width: 385px;
+    height: 440px;
+    place-self: center;
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imagem {
+    background-color: var(--cinza);
+    height: 160px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-1 {
+    background-image: url("../images/bruno-mars.jpg");
+}
+.img-2 {
+    background-image: url("../images/coldplay.jpg");
+}
+.img-3 {
+    background-image: url("../images/u2.webp");
+}
+.titulo-box {
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.cor-plano {
+    width: calc(388.66px - 50px);
+    height: 8px;
+    border-radius: 20px;
+}
+.gratis {
+    background-color: #232830;
+}
+.bronze {
+    background-color: #AD8A56;
+}
+.prata {
+    background-color: #B4B4B4;
+}
+.ouro {
+    background-color: #C9B037;
+}
+.platina {
+    background-color: #D7D7D7;
+}
+.diamante {
+    background-color: #D9EBF4;
+}
+.lista {
+    padding-block: 10px;
+}
+strong {
+    font-weight: 600;
+}
+ul {
+    padding-left: 15px;
+}
